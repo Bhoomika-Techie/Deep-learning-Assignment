@@ -20,6 +20,7 @@ Scikit-learn
 Google Colab
 
 
+
 📑Code Execution Order
 
 1. Tic Tac Toe
@@ -29,6 +30,7 @@ Google Colab
 5. AlexNet
 6. LSTM
    
+
 
 🔹 1. Tic Tac Toe (Reinforcement Learning)
 
@@ -49,6 +51,7 @@ e) Visualized learning performance using graphs
 f) Refactored code for clarity and stability
 
 Outcome: After training, the agent demonstrates effective learning behavior and competitive gameplay against a human player.
+
 
 
 🔹 2. Deep Reinforcement Learning (Q-Learning)
@@ -74,6 +77,7 @@ g) Smoothed reward curve to clearly show learning convergence
 Outcome: The enhanced implementation clearly demonstrates convergence behavior and optimal policy learning.
 
 
+
 🔹 3. Recurrent Neural Network (RNN)
 
 Description: This section implements a Recurrent Neural Network (RNN) to model sequential data and capture temporal dependencies.
@@ -93,6 +97,7 @@ e) Added loss and accuracy plots for visualization
 f) Improved code readability and modularity
 
 Outcome: The updated RNN model shows improved stability, better generalization, and clearer training insights.
+
 
 
 🔹 4. CatDog (Image Classification)
@@ -118,6 +123,7 @@ g) Displayed predicted and actual labels with images for better understanding
 Outcome: The model achieves better generalization and provides improved visualization for interpretation of predictions.
 
 
+
 🔹 5. AlexNet
 
 Description: This section focuses on improving an RNN-based text/sequence generation model by correcting architectural and sampling-related issues that affected output quality.
@@ -135,6 +141,7 @@ d) Replaced argmax-based sampling with temperature sampling
 e) Improved overall model stability and output diversity
 
 Outcome: The modified model generates more natural, less repetitive outputs and is more suitable for demonstrations and viva explanations.
+
 
 
 🔹 6. Long Short-Term Memory (LSTM)
