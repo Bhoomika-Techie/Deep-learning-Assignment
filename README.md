@@ -27,10 +27,15 @@ Description: This implementation trains an AI agent to play Tic Tac Toe using Re
 
 Modifications Made:
 a) Fixed initialization bug in player symbol
+
 b) Added epsilon decay for better exploration–exploitation balance
+
 c) Improved reward propagation logic
+
 d) Added win-rate tracking during training
+
 e) Visualized learning performance using graphs
+
 f) Refactored code for clarity and stability
 
 Outcome: After training, the agent demonstrates effective learning behavior and competitive gameplay against a human player.
@@ -40,11 +45,17 @@ Description: This section implements Q-learning, where an agent learns optimal a
 
 Modifications Made:
 a) Refactored Q-learning logic for clarity
+
 b) Added epsilon-greedy policy for balanced exploration
+
 c) Removed redundant function definitions
+
 d) Improved reward propagation logic
+
 e) Added convergence graph to visualize learning
+
 f) Simplified environment–agent interaction
+
 g) Smoothed reward curve to clearly show learning convergence
 
 Outcome: The enhanced implementation clearly demonstrates convergence behavior and optimal policy learning.
@@ -54,10 +65,15 @@ Description: This section implements a Recurrent Neural Network (RNN) to model s
 
 Modifications Made:
 a) Added train–validation split to evaluate generalization
+
 b) Introduced Dropout layers to prevent overfitting
+
 c) Changed optimizer from Adam to RMSprop for better sequence learning
+
 d) Increased RNN depth to improve accuracy
+
 e) Added loss and accuracy plots for visualization
+
 f) Improved code readability and modularity
 
 Outcome: The updated RNN model shows improved stability, better generalization, and clearer training insights.
@@ -67,11 +83,17 @@ Description: This section performs image classification using a CNN  Originally 
 
 Modifications Made:
 a) Replaced Cat–Dog dataset with multi-class Flowers dataset
+
 b) Implemented data augmentation to improve generalization
+
 c) Added Dropout layer to reduce overfitting
+
 d) Changed optimizer to Adam with a lower learning rate
+
 e) Converted binary classification to categorical classification
+
 f) Added training and validation accuracy/loss graphs
+
 g) Displayed predicted and actual labels with images for better understanding
 
 Outcome: The model achieves better generalization and provides improved visualization for interpretation of predictions.
@@ -81,9 +103,13 @@ Description: This section focuses on improving an RNN-based text/sequence genera
 
 Modifications Made:
 a) Replaced ReLU activation with tanh, which is standard for RNNs
+
 b) Fixed the number of RNN units instead of using text length
+
 c) Increased the number of neurons to strengthen the model
+
 d) Replaced argmax-based sampling with temperature sampling
+
 e) Improved overall model stability and output diversity
 
 Outcome: The modified model generates more natural, less repetitive outputs and is more suitable for demonstrations and viva explanations.
@@ -93,9 +119,13 @@ Description: This project implements time series forecasting using an LSTM neura
 
 Modifications Made:
 a) Implemented proper time-series preprocessing
+
 b) Used LSTM architecture for long-term dependency learning
+
 c) Applied Adam optimizer with MSE loss
+
 d) Evaluated performance using RMSE
+
 e) Visualized training and testing predictions
 
 Outcome: The LSTM model successfully captures temporal trends and produces accurate forecasts for airline passenger data.
