@@ -6,11 +6,17 @@ This repository contains multiple implementations of Deep Learning and Reinforce
 📌 Technologies Used
 
 Python
+
 NumPy
+
 Pandas
+
 Matplotlib
+
 TensorFlow / Keras
+
 Scikit-learn
+
 Google Colab
 
 📑 Code Execution Order
